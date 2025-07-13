@@ -22,10 +22,10 @@
   @keyframes float {
     0%,
     100% {
-      transfrom: translateY(0);
+      transform: translateY(0);
     }
     50% {
-      transfrom: translateY(-10px);
+      transform: translateY(-10px);
     }
   }
 
@@ -42,24 +42,24 @@
   @keyframes fade-in {
     from {
       opacity: 0;
-      transfrom: translateY(20px);
+      transform: translateY(20px);
     }
     to {
       opacity: 1;
-      transfrom: translateY(0);
+      transform: translateY(0);
     }
   }
 
   @keyframes meteor {
     0% {
-      transfrom: rotate(215deg) translateX(0);
+      transform: rotate(215deg) translateX(0);
       opacity: 1;
     }
     70% {
       opacity: 1;
     }
     100% {
-      transfrom: rotate(215deg) translateX(-500px);
+      transform: rotate(215deg) translateX(-500px);
       opacity: 0;
     }
   }
