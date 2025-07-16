@@ -19,9 +19,13 @@ const skills = [
   // Tools
   { name: "Git/Github", level: 70, category: "tools" }, // Skilled
   { name: "VS Code", level: 90, category: "tools" }, // Expert
+  //Other
+  { name: "C++", level: 30, category: "Other" }, // Expert
+  { name: "Java", level: 30, category: "Other" }, // Expert
+  { name: "Python", level: 30, category: "Other" }, // Expert
 ];
 
-const categories = ["all", "frontend", "backend", "tools"];
+const categories = ["all", "frontend", "backend", "tools", "other"];
 
 export const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");
