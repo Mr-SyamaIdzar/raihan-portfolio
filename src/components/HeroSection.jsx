@@ -25,7 +25,20 @@ export const HeroSection = () => {
           <p className="text-lg md:text-xl text-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3">
             I create stellar web experiences with modern technologies.
             Specializing in front-end development, I build interfaces that are
-            both beautiful and functional. -Pedro Machado-
+            both beautiful and functional.
+            <br />
+            <span className="text-sm text-muted-foreground">
+              Inspired by{" "}
+              <a
+                href="https://www.youtube.com/watch?v=ifOJ0R5UQOc&t=9740s&pp=ygUpcG9ydGZvbGlvIHVzaW5nIHJlYWN0IGpzIGFuZCB0YWlsd2luZCBjc3M%3D"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-primary transition-colors"
+              >
+                PedroTech
+              </a>
+              's portfolio.
+            </span>
           </p>
 
           <div className="opacity-0 animate-fade-in-delay-4">
