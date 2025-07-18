@@ -21,6 +21,15 @@ const projects = [
     demoUrl: "#",
     githubUrl: "https://github.com/Mr-SyamaIdzar/Sanke_game_-AlproLanjut-",
   },
+  {
+    id: 3,
+    title: "Movie search",
+    description: "Movie search using omdb api to complete ITC project",
+    image: "/projects/03_MovieSearch.png",
+    tags: ["HTML/CSS", "Javascript"],
+    demoUrl: "https://mr-syamaidzar.github.io/Movie-Search/",
+    githubUrl: "https://github.com/Mr-SyamaIdzar/Movie-Search",
+  },
 ];
 
 export const ProjectsSection = () => {
