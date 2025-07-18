@@ -38,7 +38,7 @@ export const ContactSection = () => {
 
         <p className="text-center mb-12 max-w-2xl mx-auto">
           Have a project in mind or want to collaborate? Feel free to reach out.
-          I'm always open to discussing new opportunities. -Pedro Machado-
+          I'm always open to discussing new opportunities.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -113,9 +113,16 @@ export const ContactSection = () => {
           </div>
 
           <div
-            className="bg-card p-8 rounded-lg shadow-xs"
+            className="relative bg-card p-8 rounded-lg shadow-xs"
             onSubmit={handleSubmit}
           >
+            {/* Overlay */}
+            <div className="absolute inset-0 bg-gray-500/60 backdrop-blur-sm flex items-center justify-center z-10 rounded-lg">
+              <p className="text-white text-center text-lg font-medium">
+                Not Functional at The Moment
+              </p>
+            </div>
+
             <h3 className="text-2xl font-semibold mb-6">Send a Message</h3>
 
             <form className="space-y-6">
