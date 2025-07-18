@@ -27,7 +27,7 @@ export const HeroSection = () => {
             Specializing in front-end development, I build interfaces that are
             both beautiful and functional.
             <br />
-            <span className="text-sm text-muted-foreground">
+            <span className="text-sm text-foreground">
               Inspired by{" "}
               <a
                 href="https://www.youtube.com/watch?v=ifOJ0R5UQOc&t=9740s&pp=ygUpcG9ydGZvbGlvIHVzaW5nIHJlYWN0IGpzIGFuZCB0YWlsd2luZCBjc3M%3D"
@@ -42,7 +42,7 @@ export const HeroSection = () => {
           </p>
 
           <div className="opacity-0 animate-fade-in-delay-4">
-            <a href="#project" className="cosmic-button">
+            <a href="#projects" className="cosmic-button">
               View My Work
             </a>
           </div>
