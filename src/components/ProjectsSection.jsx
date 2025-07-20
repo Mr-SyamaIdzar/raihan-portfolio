@@ -30,6 +30,25 @@ const projects = [
     demoUrl: "https://mr-syamaidzar.github.io/Movie-Search/",
     githubUrl: "https://github.com/Mr-SyamaIdzar/Movie-Search",
   },
+  {
+    id: 4,
+    title: "DSS Choosing Lodging in Bali",
+    description:
+      "Web-based DSS using the Weighted Product (WP) method that helps make lodging decisions in Bali.",
+    image: "/projects/04_DSS.png",
+    tags: ["Python"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/Mr-SyamaIdzar/DSS-ChoosingLodgingInBali",
+  },
+  {
+    id: 5,
+    title: "LiveBudget",
+    description: "App to record finances",
+    image: "/projects/05_LiveBudget.png",
+    tags: ["Java"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/Mr-SyamaIdzar/LiveBudget",
+  },
 ];
 
 export const ProjectsSection = () => {
